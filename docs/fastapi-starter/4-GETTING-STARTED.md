@@ -89,4 +89,8 @@ There you can see the **request**, **response** and the **headers**, don't worry
 4. Run the server with `uvicorn`
 5. Navigate to http://127.0.0.1:8000 and also check the interactive docs
 
+---
+
 [Next → Expanding the API](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXPANDING-API)
+
+---

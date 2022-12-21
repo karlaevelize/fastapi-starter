@@ -89,4 +89,8 @@ class Programmer(BaseModel):
 
 ### Part 2 - Database
 
+---
+
 [Next → Exercises](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/6-EXERCISES)
+
+---

@@ -31,4 +31,8 @@ __pycache__/
 
 This will be enough for now, but we might ignore more files later. Feel free to make your first commit already.
 
+---
+
 [Next → Getting Started](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/4-GETTING-STARTED)
+
+---

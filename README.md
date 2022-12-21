@@ -12,6 +12,6 @@
 
 - Getting Started [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/3-GIT)
 
-- Expanding API [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/4-EXPANDING-API)
+- Expanding API [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXPANDING-API)
 
 - Exercises [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXERCISES)
