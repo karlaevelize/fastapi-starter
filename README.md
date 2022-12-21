@@ -4,4 +4,5 @@
 
 - Intro
 - Set Up
+- Git
 - Getting Started
