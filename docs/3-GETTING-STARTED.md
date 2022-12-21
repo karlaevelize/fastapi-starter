@@ -31,7 +31,30 @@ A few things about the code above:
 
 ## Run Server
 
-<!-- uvicorn main:app --reload -->
+After adding that code to our `main.py` file, it's time to run our server, for this we are going the use the `uvicorn` package we installed in the set up. Let's have a look at the command and try to understand it before running:
+
+- `uvicorn main:app --reload`
+
+1. **uvicorn:** we use it to run our server
+
+2. **main:** name of the file
+
+3. **app:** name of the variable associated to fastapi
+
+4. **--reload:** the `--reload` flag is watching for changes on project files, so we don't have to constantly restart the server
+
+Now, run it on your terminal and have a look at the output.
+
+```shell
+# expected output
+
+...
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [76363] using WatchFiles
+INFO:     Started server process [76365]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+```
 
 ## Testing
 
