@@ -4,7 +4,7 @@
 
 We will get started with a simple API and expand on it later. Our current goal is to set up our app and write a few GET routes.
 
-Earlier on this course, we installed the **FastAPI** package, if we want to use it with its modules, we need to import it on a file. We still don't have any fyles, so let's create a `main.py` and import `fastapi` in there, we also want to initizalize our app and write the first endpoint.
+Earlier on this course, we installed the **FastAPI** package, if we want to use it with its modules, we need to import it on a file. We still don't have any files, so let's create a `main.py` and import `fastapi` in there, we also want to initialize our app and write the first endpoint.
 
 ```py
 # 1. Import package fastAPI
@@ -57,5 +57,14 @@ INFO:     Application startup complete.
 ```
 
 ## Testing
+
+With our server up and running, it's time to check if we are actually sending data, for that you need to navigate to http://127.0.0.1:8000/ or http://localhost:8000/, you can also find this address on your terminal where the server is running, just `cmd` + `click` on it to open on the browser.
+
+Once you go to that address, you should be greeted with `{"message":"Hello World"}`
+
+<!-- image 1 -->
+<img src="../media/1-hello-world.png">
+
+Note that we go `/` because that's me path we defined for the endpoint, try changing the path to something else like `/test`, refresh the page and you should be greeted with "Not found". Now, navigate to `/test` and the previous message should be there.
 
 <!-- http://127.0.0.1:8000/ -->
