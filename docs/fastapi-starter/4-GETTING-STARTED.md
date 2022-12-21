@@ -14,7 +14,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 # 3. Write the first endpoint
-@app.get("/")
+@app.get("/") # path operation decorator
 async def root():
     return {"message": "Hello World"}
 ```
@@ -25,7 +25,7 @@ A few things about the code above:
 
 - The second thing we do is to `initialize the app` variable to create a server, you don't have to call it app, but it's a convention and highly recommended.
 
-- And finally, we define our first endpoint, which always consists of two parts: the method with the path (in our case the method is `GET` and the path is `/`) and an async function with a return.
+- And finally, we define our first endpoint, which always consists of two parts: the operation with the path, known was path operation decorator (in our case the operation is `GET` and the path is `/`) and an async function with a return.
 
 - Once we run the app and reach the endpoint, we should see `{"message": "Hello World"}` on the screen.
 
