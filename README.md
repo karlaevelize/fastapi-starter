@@ -8,5 +8,5 @@
 - Set Up
 - Git
 - Getting Started
-- More endpoints
+- Expanding API
 - Exercises
