@@ -4,14 +4,14 @@
 
 `/fastapi-starter`
 
-- Intro [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/1-INTRO)
+1. Intro [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/1-INTRO)
 
-- Set Up [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/2-SET-UP)
+2. Set Up [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/2-SET-UP)
 
-- Git [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/1-INTRO)
+3. Git [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/1-INTRO)
 
-- Getting Started [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/3-GIT)
+4. Getting Started [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/3-GIT)
 
-- Expanding API [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXPANDING-API)
+5. Expanding API [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXPANDING-API)
 
-- Exercises [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXERCISES)
+6. Exercises [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXERCISES)
