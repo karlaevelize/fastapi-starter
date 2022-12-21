@@ -10,7 +10,7 @@ Earlier on this course, we installed the **FastAPI** package, if we want to use 
 # 1. Import package fastAPI
 from fastapi import FastAPI
 
-# 2. initialize app
+# 2. Create a FastAPI "instance"
 app = FastAPI()
 
 # 3. Write the first endpoint
@@ -21,7 +21,7 @@ async def root():
 
 A few things about the code above:
 
-- We first `import fastAPI`, this way we are able to use it on our file. Whenever working with packages, it's necessary to import them.
+- We first `import fastAPI`, FastAPI is a Python class that provides all the functionality for your API, this way we are able to use it on our file. Whenever working with packages, it's necessary to import them.
 
 - The second thing we do is to `initialize the app` variable to create a server, you don't have to call it app, but it's a convention and highly recommended.
 
@@ -58,6 +58,8 @@ INFO:     Application startup complete.
 
 ## Testing
 
+### Checking the output
+
 With our server up and running, it's time to check if we are actually sending data, for that you need to navigate to http://127.0.0.1:8000/ or http://localhost:8000/, you can also find this address on your terminal where the server is running, just `cmd` + `click` on it to open on the browser.
 
 Once you go to that address, you should be greeted with `{"message":"Hello World"}`
@@ -65,6 +67,24 @@ Once you go to that address, you should be greeted with `{"message":"Hello World
 <!-- image 1 -->
 <img src="../media/1-hello-world.png">
 
-Note that we go `/` because that's me path we defined for the endpoint, try changing the path to something else like `/test`, refresh the page and you should be greeted with "Not found". Now, navigate to `/test` and the previous message should be there.
+Note that we go `/` because that's the path we defined for the endpoint, try changing the path to something else like `/test`, refresh the page and you should be greeted with "Not found". Now, navigate to `/test` and the previous message should be there.
 
-<!-- http://127.0.0.1:8000/ -->
+### Interactive API docs
+
+Now go to http://127.0.0.1:8000/docs, you will see the automatic interactive API documentation, this is provided and integrated by default in your application. All your endpoints will be displayed here and you can test them directly. Right now, we only have one to test, click on the following:
+
+- GET -> Try it out -> Execute
+
+<img src="../media/2-interactive-docs.png">
+
+There you can see the **request**, **response** and the **headers**, don't worry too much about the headers right now, we will discuss it later on in the course.
+
+## Summary
+
+1. Import `FastAPI`
+2. Create an `app` instance
+3. Write an endpoint
+   1. First the path with the method
+   2. Write a function with an appropriate return
+4. Run the server with `uvicorn`
+5. Navigate to http://127.0.0.1:8000 and also check the interactive docs
