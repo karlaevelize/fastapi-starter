@@ -17,3 +17,5 @@ The key features are:
 - **Short:** Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
 
 - **Robust:** Get production-ready code. With automatic interactive documentation.
+
+[Next → Set Up](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/2-SET-UP)

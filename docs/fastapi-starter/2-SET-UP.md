@@ -52,3 +52,5 @@ Alternatively, run a command inside the virtualenv with pipenv run.
 ```
 
 Pipenv will install the FastAPI library and create a Pipfile for you in your project’s directory. The Pipfile is used to track which dependencies your project needs in case you need to re-install them, such as when you share your project with others.
+
+[Next → Git](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/3-GIT)
