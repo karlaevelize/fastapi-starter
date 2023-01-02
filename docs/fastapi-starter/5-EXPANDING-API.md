@@ -24,10 +24,10 @@ When it comes to endpoints, we can return way more than a single string, let's a
 
 Let's build an application about famous programmers, we want to have at least 2 different sets of data: programmers and programming languages. When it comes to the endpoints, we can write at least 4:
 
-- `/programmers:` responds with a list of programmers
-- `/languages:` responds with a list of programming languages
-- `/programmers/id:` responds with a specific programmer
-- `/languages/id:` responds with a specific programming language
+- `/programmers`: responds with a list of programmers
+- `/languages`: responds with a list of programming languages
+- `/programmers/id`: responds with a specific programmer
+- `/languages/id`: responds with a specific programming language
 
 For the last two, we will need to use something called **path parameters**, we will get to that later in this lesson.
 

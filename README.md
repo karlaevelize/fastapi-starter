@@ -15,3 +15,5 @@
 5. Expanding API [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXPANDING-API)
 
 6. Exercises [→](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/5-EXERCISES)
+
+`/sql-alchemy`
