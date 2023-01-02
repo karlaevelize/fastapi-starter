@@ -1,14 +1,15 @@
 from pydantic import BaseModel
 from enum import Enum
-from typing import List
 
 class Languages(str, Enum):
+  b = "b"
   c = "c"
-  python = "python"
+  java = "java"
   javascript = "javascript"
+  python = "python"
 
 class Programmer(BaseModel):
   id: int
   name: str
-  languages: List[Languages]
+  languages: list[Languages]
 

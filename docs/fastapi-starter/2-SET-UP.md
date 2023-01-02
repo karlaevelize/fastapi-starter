@@ -55,6 +55,6 @@ Pipenv will install the FastAPI library and create a Pipfile for you in your pro
 
 ---
 
-- [Next → Git](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/3-GIT)
+[Next → Git](https://karlaevelize.github.io/fastapi-starter/docs/fastapi-starter/3-GIT)
 
 ---
