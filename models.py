@@ -1,6 +1,5 @@
 from pydantic import BaseModel
 from enum import Enum
-from typing import List
 
 class Languages(str, Enum):
   b = "b"
@@ -12,5 +11,5 @@ class Languages(str, Enum):
 class Programmer(BaseModel):
   id: int
   name: str
-  languages: List[Languages]
+  languages: list[Languages]
 

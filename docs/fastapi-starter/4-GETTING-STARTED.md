@@ -75,6 +75,7 @@ Now go to http://127.0.0.1:8000/docs, you will see the automatic interactive API
 
 - GET -> Try it out -> Execute
 
+<!-- image 2 -->
 <img src="../../media/2-interactive-docs.png">
 
 There you can see the **request**, **response** and the **headers**, don't worry too much about the headers right now, we will discuss it later on in the course.

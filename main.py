@@ -1,10 +1,9 @@
 from fastapi import FastAPI
 from models import Programmer, Languages
-from typing import List
 
 app = FastAPI()
 
-db: List[Programmer] = [
+db: list[Programmer] = [
     Programmer(id= 1, name="Dennis Ritchie", languages=[Languages.b, Languages.c]),
     Programmer(id= 2, name="Brian Wilson Kernighan", languages=[Languages.c]),
     Programmer(id= 3, name="James Gosling", languages=[Languages.java]),
@@ -14,5 +13,13 @@ db: List[Programmer] = [
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World"};
 
+@app.get("/programmers", response_model=list[Programmer])
+async def get_programmers() -> list[Programmer]:
+    return db
+
+
+# @app.get("/programmers", response_model=list[Programmer])
+# async def get_programmers() -> list[Programmer]:
+#     return db;
